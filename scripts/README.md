@@ -4,3 +4,6 @@ In this case, the `setup` subdirectory contains scripts that were used to downlo
 
 The `solutions/` directory contains two versions of a "solution" script for the `download-fastq.sh` that will be written interactively during the workshop.
 One version (`variables_download-fastq.sh`) makes use of bash variables, and the other version (`novariables_download-fastq.sh`) does not. 
+
+There is additonally one BASH script `download-fastq.sh` which whill curl and 
+count the number of lines in some FASTq files, which are saved in `data/raw/fastq/'
